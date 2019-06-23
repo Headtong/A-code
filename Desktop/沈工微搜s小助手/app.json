@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/study"
+    "pages/index/index",
+    "pages/studyWords/program",
+    "pages/studySource/eaxm",
+    "pages/video/videoStudy",
+    "pages/setting/setting",
+    "pages/setting/aboutUs",
+    "pages/setting/logs",
+    "pages/setting/devleopProduce",
+    "pages/setting/response",
+    "pages/studySource/graduate",
+    "pages/studyWords/programadd"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "沈工微搜小程序 云开发",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#b7b7b7",
+    "selectedColor": "#AB956D",
+    "borderStyle": "black",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "pagePath": "pages/study/programadd",
+        "iconPath": "../SITminiprogram/image/学习未选.png",
+        "selectedIconPath": "../SITminiprogram/image/学习已选.png",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/video/videoStudy",
+        "iconPath": "../SITminiprogram/image/课程未选.png",
+        "selectedIconPath": "../SITminiprogram/image/课程选中.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "../SITminiprogram/image/设置未选.png",
+        "selectedIconPath": "../SITminiprogram/image/设置已选.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

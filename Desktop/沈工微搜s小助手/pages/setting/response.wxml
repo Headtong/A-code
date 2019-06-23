@@ -1,0 +1,8 @@
+<!--SITminiprogram/pages/setting/response.wxml-->
+<view class="container">
+  <view class="formText">
+    <form class="form">
+      <textarea bindblur="txtArea" auto-focus="true" class="textareaType" placeholder="请写下您的意见～"/>
+    </form>
+  </view>
+</view>

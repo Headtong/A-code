@@ -1,0 +1,9 @@
+<!--SITminiprogram/pages/setting/setting.wxml-->
+<text>SITminiprogram/pages/setting/setting.wxml</text>
+<view class="container">
+
+  <view class="words">
+    <navigator></navigator>
+  </view>
+     
+</view>

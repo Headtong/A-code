@@ -1,0 +1,13 @@
+<!--SITminiprogram/pages/study/programadd.wxml-->
+<view class="container">
+    <view class="text-block">
+       <block wx:for="{{data}}"wx:key = "index">
+        <view class="words">
+       <view><text class="text-Words" >{{item.English}}</text></view>
+        </view>
+        <view class="words">
+           <view><text class="text-Words">{{item.Chinese}}</text></view>
+        </view>
+       </block>
+    </view>
+  </view>

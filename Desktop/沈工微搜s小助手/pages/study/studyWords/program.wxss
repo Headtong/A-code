@@ -1,0 +1,11 @@
+/* pages/program.wxss */
+.text-Words{
+  color:rgb(16, 58, 245);
+  background-color: rgba(230, 243, 111, 0.808);
+}
+.text-Translate{
+  color: rgb(233, 59, 16);
+  background-color: rgb(206,245,250)
+}
+.container{
+}

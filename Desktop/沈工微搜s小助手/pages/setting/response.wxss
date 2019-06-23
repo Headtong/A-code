@@ -1,0 +1,6 @@
+/* SITminiprogram/pages/setting/response.wxss */
+.textareaType{
+  height: 3em; 
+  border:solid #ddd 2px; 
+  text-align: left
+}
