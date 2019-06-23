@@ -1,0 +1,5 @@
+<!--SITminiprogram/pages/study/words/words.wxml-->
+<view class="container">
+   <navigator url="../words/program" hover-class="navigator-hover">考研单词</navigator>
+   <navigator url="../words/programadd" hover-class="navigator-hover">四六级单词</navigator>
+</view>

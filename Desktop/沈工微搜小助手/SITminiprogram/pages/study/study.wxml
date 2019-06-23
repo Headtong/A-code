@@ -1,0 +1,7 @@
+<!--SITminiprogram/pages/study/study.wxml-->
+<view class="container">
+  <view class="exam">
+   <navigator url="../study/exam/exam" hover-class="navigator-hover">考题</navigator></view>
+   <view class="words">
+   <navigator url="../study/words/words" hover-class="navigator-hover">单词</navigator></view>
+</view>

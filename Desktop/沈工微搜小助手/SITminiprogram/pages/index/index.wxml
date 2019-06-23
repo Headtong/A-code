@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+   <view class= "header">
+     <open-data class="userAvatarUrl" type="userAvatarUrl"></open-data>
+     <open-data class="userNickName" type="userNickName"></open-data>
+<!-- 需要使用 button 来授权登录 -->
+     <button wx:if="{{!canIUse}}" open-type="getUserInfo" 
+            bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  </view>
+   <view class="body">
+    <view class="navList">
+      <navigator url="../index/aboutUs/aboutUs" hover-class="navigator-hover">关于小程序</navigator></view>
+    <view class="navList">
+      <navigator url="../index/developProduct/developProduct" hover-class="navigator-hover">小程序迭代计划</navigator></view>
+     <view class="navList">
+      <navigator url="../index/logs/logs" hover-class="navigator-hover">小程序迭代日志</navigator>
+    </view>
+     <view class="navList">
+      <navigator url="../index/response/response" hover-class="navigator-hover">用户反馈</navigator>
+    </view>       
+   </view>
+</view>

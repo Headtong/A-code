@@ -1,0 +1,6 @@
+<!--SITminiprogram/pages/study/exam/exam.wxml-->
+<view class="container">
+   <navigator url="../exam/English" hover-class="navigator-hover">考研与四六级英语</navigator>
+   <navigator url="../exam/math" hover-class="navigator-hover">考研数学</navigator>
+   <navigator url="../exam/polict" hover-class="navigator-hover">考研政治</navigator>
+</view>
