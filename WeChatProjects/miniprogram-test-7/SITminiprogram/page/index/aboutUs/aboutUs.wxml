@@ -1,0 +1,5 @@
+<!--miniprogram/pages/index/aboutUs/aboutUs.wxml-->
+<view class="container">
+    <rich-text nodes="{{nodesB}}"></rich-text>
+    <rich-text nodes="{{nodesF}}"></rich-text>
+</view>

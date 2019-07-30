@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "page/study/study",
+    "page/index/index",
+    "page/study/exam/polict",
+    "page/study/exam/math",
+    "page/study/exam/English",
+    "page/study/words/program",
+    "page/study/words/programadd",
+    "page/video/video",
+    "page/index/aboutUs/aboutUs",
+    "page/index/developProduct/developProduct",
+    "page/index/logs/logs",
+    "page/index/response/response",
+    "page/study/words/words",
+    "page/study/exam/exam",
+    "page/databaseGuide/databaseGuide"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3988ff",
+    "navigationBarTitleText": "沈工微搜小助手",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#b7b7b7",
+    "selectedColor": "#AB956D",
+    "borderStyle": "black",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "pagePath": "page/study/study",
+        "iconPath": "/images/stu.png",
+        "selectedIconPath":"/images/stuhasSelect.png",
+        "text": "学习"
+      },
+      {
+        "pagePath": "page/video/video",
+        "iconPath": "/images/projecthas.png",
+        "selectedIconPath": "/images/project.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "page/index/index",
+        "iconPath": "/images/set.png",
+        "selectedIconPath": "/images/setSelect.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

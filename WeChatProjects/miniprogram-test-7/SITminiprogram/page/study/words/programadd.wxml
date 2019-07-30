@@ -1,0 +1,7 @@
+<!--miniprogram/pages/study/words/programadd.wxml-->
+<view class="container">
+   <block wx:for="{{data}}" wx:key="index" class="blockItem">
+     <text class="English">{{item.English}}</text>
+     <text class="chinese">{{item.Chinese}}</text>
+   </block>
+</view>

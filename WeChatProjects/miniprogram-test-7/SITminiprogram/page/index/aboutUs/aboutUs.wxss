@@ -1,0 +1,22 @@
+/* miniprogram/pages/index/aboutUs/aboutUs.wxss */
+.container{
+  display: block;
+  width:80%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+.B{
+  margin-top:25rpx;
+  text-align: left;
+}
+.B_grey{
+  margin: 10% 10%;
+  color: rgb(212, 211, 211);
+  font-size: 30rpx;
+}
+.B-Box{
+  margin:5% 2% 0 2%; 
+  padding:0 60rpx 25rpx 60rpx;
+  border: 2rpx rgb(194, 193, 193) solid;
+  box-shadow: 3rpx 3rpx 2rpx 1rpx rgb(194, 193, 193); 
+}

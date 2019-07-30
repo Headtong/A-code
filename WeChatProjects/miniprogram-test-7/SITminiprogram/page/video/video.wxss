@@ -1,0 +1,25 @@
+/* miniprogram/pages/video/video.wxss */
+.videoShow{
+  margin-left:2%;
+  margin-top: 5% 
+}
+.sendDanmuButton{
+  border-radius:50% 50%;
+  background: #1E90FF;
+  box-shadow: 0 1px #666;
+}
+.sendDanmuButton:active {
+  background-color: #1E90FF;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+.btn-area{
+  position: relative;
+  bottom:50rpx;
+  left:100%;
+  width:25%;
+}
+.cell-bd{
+  position: relative;
+  top: 20rpx;
+}

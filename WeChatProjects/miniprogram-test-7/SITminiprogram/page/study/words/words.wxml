@@ -1,0 +1,14 @@
+<!--SITminiprogram/pages/study/words/words.wxml-->
+<view class="container">
+  <view class="Postgraduation">
+   <navigator class="wordsP" url="../words/program" hover-class="navigator-hover">
+   <image class="Pgraduation" src="/images/kaoyanyingyu.png"></image>
+   <text class="nav_text">考研单词查查</text>
+   </navigator></view>
+   <view class="CET">
+   <navigator class="wordsCET" url="../words/programadd" hover-class="navigator-hover">
+   <image class="CETimage" src="/images/siliuji-3.png"></image>
+   <text class="nav_text">四六级单词查查</text>
+   </navigator>
+ </view>
+</view>

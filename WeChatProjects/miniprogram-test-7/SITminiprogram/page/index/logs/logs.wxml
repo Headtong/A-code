@@ -1,0 +1,4 @@
+<!--miniprogram/pages/index/logs/logs.wxml-->
+<view class="container">
+  <rich-text nodes="{{nodesLogs}}"></rich-text>
+</view>

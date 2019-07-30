@@ -1,0 +1,117 @@
+/**index.wxss**/
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.header{
+  position: absolute;
+  height: 18%;
+  width: 100%;
+  background: #3988ff;
+  
+}
+.userNickName{
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  font-size: 35rpx;
+  color: rgba(239, 242, 248, 0.986);
+}
+.userAvatarUrl{
+  position: absolute;
+  left: 3%;
+  top: 10%;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 20%;
+  background-size: cover;
+}
+.body{
+ position: absolute;
+ height: 84%;
+ width: 100%;
+ border:2rpx 0 0 0 rgb(197, 197, 197) solid;
+ border-radius: 5% 5% 0 0;
+ box-shadow: 4rpx 0 0 2rpx rgb(141, 133, 133);
+ margin-top: 23%;
+ text-align: center;
+ background: #fff
+}
+.body-div{
+ position: absolute;
+ height: 84%;
+ width: 98%;
+ border:2rpx 0 0 0 rgb(197, 197, 197) solid;
+ border-radius: 5% 5% 0 0;
+ margin-top: 21%;
+ margin-left:2%;
+ background: #f8f7f7
+}
+.nav-image{
+  margin-top:2%;
+  height:80%;
+  width:80%;
+}
+.navAbt{
+  margin-top:15%;
+  padding: 0% 0% 10% 0%; 
+  border-radius: 15%;
+  background-color: #8cecf0e8;
+  position: absolute;
+  height: 22%;
+  width: 40%;
+  left:7%;
+  box-shadow:10rpx 10rpx 5rpx #888888;
+}
+.navAbt:active{
+  background: #64edf7fb;
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;}
+.navdp{
+  margin-top:15%;
+  padding: 0% 0% 10% 0%; 
+  background-color: #f5fd7df8;
+  position: absolute;
+  border-radius: 15%;
+  height: 22%;
+  width: 40%;
+  left: 53%;
+  box-shadow:10rpx 10rpx 5rpx #888888;
+}
+.navdp:active{
+  background:  #b6f02ec0;
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;
+}
+.navLogs{
+  padding: 0% 0% 10% 0%; 
+  border-radius: 15%;
+  background-color: #fcb1c8;
+  position: absolute;
+  height: 22%;
+  width: 40%;
+  top:54%;
+  left:7%;
+  box-shadow:10rpx 10rpx 5rpx #888888;
+}
+.navLogs:active{
+  background: #ff83ac;
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;}
+.navresp{
+  padding: 0% 0% 10% 0%;
+  border-radius: 15%; 
+  background-color: #5dff1d;
+  position: absolute;
+  height: 30%;
+  width: 40%;
+  left: 53%;
+  top:54%;
+  box-shadow:10rpx 10rpx 5rpx #888888;
+}
+.navresp:active{
+  background: #0ffa23d2;
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;}
