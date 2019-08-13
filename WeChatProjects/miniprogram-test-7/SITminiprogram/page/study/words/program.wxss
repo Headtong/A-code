@@ -1,1 +1,32 @@
 /* miniprogram/pages/study/words/program.wxss */
+.searchShow{
+  width: 100%;
+  height: 30%;
+  margin: 5%
+}
+.searchInput{
+  position: relative;
+  align-items: left;
+  height: 100%;
+  width: 66%;
+  left: 5%;
+  background: rgb(248, 245, 245);
+  margin: 3%;
+  line-height: 5%;
+}
+.searchButton{
+  position:absolute;
+  left:75%;
+  width: 10%;
+  margin-left: 0;
+  margin-right: 0;
+  bottom:88%;
+ 
+}
+.showAns{
+  position: relative;
+  background-color: rgb(212, 212, 212);
+  height: 25%;
+  width: 80%;
+  left: 3%;
+}

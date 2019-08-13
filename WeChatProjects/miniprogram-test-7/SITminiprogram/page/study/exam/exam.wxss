@@ -58,7 +58,6 @@
 .footbody{
   top:25%;
   text-align: center;
-  text-decoration:underline;
   right: 15%;
   color: #888888;
   position: absolute;
@@ -76,7 +75,4 @@
   width: 100%;
   left: 2%;
   box-shadow:10rpx 10rpx 5rpx #888888
-}
-.le-nav.le-active {
- transform: scale(3);
 }

@@ -43,7 +43,6 @@ Page({
     // 在没有 open-type=getUserInfo 版本的兼容处理
   },
   getUserInfo: function (e) {
-
     app.globalData.userInfo = e.detail.userInfo,
       this.setData({
         openid: res.result.openid,

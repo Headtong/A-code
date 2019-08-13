@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    devNodes:'<div class="dev_N-Box"><p class="dev_N">迭代计划</p></br><hr/></br><span class="dev_N_grey"><li>v1.0.0版本<br/>版本号：v1.0.0版本<br/>更新时间：2019年8月3号<br/>更新内容：加入了单词查询、考题查询、视频查阅功能，完成了小程序基本框架与重要功能</li><li>v1.0.1版本<br/>版本号：1.0.1版本<br/>更新时间：2019年8月11号<br/>更新内容：1.调整主题颜色和主页背景以及选择框框架的样式和大小。<br/>2.重新渲染单词页面。<br/>3.重新修改答题页面的逻辑层的某个功能和渲染层内出现答案和答题选项顺序的错误。</li></span></div>',
+    devNodes:'<div class="dev_N-Box"><p class="dev_N">迭代计划</p></br><hr/></br><span class="dev_N_grey"><li>v1.1.1版本<br/>版本号：v1.1.1版本<br/>更新时间：2019年8月17号<br/>更新内容：更新了考题、视频</li></span></div>',
   },
 
   /**

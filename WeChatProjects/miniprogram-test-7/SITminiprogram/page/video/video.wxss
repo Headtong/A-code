@@ -4,9 +4,11 @@
   margin-top: 5% 
 }
 .sendDanmuButton{
+  position: relative;
   border-radius:50% 50%;
   background: #1E90FF;
   box-shadow: 0 1px #666;
+  right:75% 
 }
 .sendDanmuButton:active {
   background-color: #1E90FF;
@@ -17,9 +19,12 @@
   position: relative;
   bottom:50rpx;
   left:100%;
-  width:25%;
+  width:17%;
 }
 .cell-bd{
   position: relative;
   top: 20rpx;
+}
+.danmuInput{
+  width:77%;
 }

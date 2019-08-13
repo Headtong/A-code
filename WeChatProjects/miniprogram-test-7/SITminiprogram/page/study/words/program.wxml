@@ -1,13 +1,16 @@
 <!--miniprogram/pages/study/words/program.wxml-->
 <view class="container">
   <view class= "searchShow">
-    <input bindinput= "getData" confirm-type="search" placeholder="输入单词/中文意思" value = "{{word}}"/>
-    <button bindtap="searchTap" type="default">搜索<icon type="search"/></button>
+    <input class="searchInput" bindinput= "getData" confirm-type="search" placeholder="输入单词/中文意思" value=""/>
+    <button class="searchButton" bindtap="searchTap"><icon type="search"/></button>
+  <block wx:for="{{dataE}}" wx:key="index" class="blockShow">
+      <text class="showAns">{{item.Chinese}}</text>   
+  </block>
   </view>
-  <block wx:if ="{{!value.length > 0}}" class = "wordShow">
-   <block wx:for="{{data}}" wx:key="index" class="blockItem">
-     <text class="English">{{item.English}}</text>
-     <text class="chinese">{{item.Chinese}}</text>
-   </block>
-   </block>
+  <block class="wordShow" wx:if="{{input.detail.value==null}}">
+    <block wx:for="{{data}}" wx:key="index" class="blockItem">
+      <text class="English">{{item.English}}</text>
+      <text class="chinese">{{item.Chinese}}</text>
+    </block>
+  </block>
 </view>

@@ -1,2 +1,31 @@
 <!--miniprogram/pages/study/exam/math.wxml-->
-<text>miniprogram/pages/study/exam/math.wxml</text>
+<view class='container'>
+    <swiper class='sheet' current='{{id}}'>
+      <block wx:for="{{ques}}" wx:key="index">
+        <swiper-item>
+          <form bindsubmit='submit'>
+            <view class='naire'>
+              <view class='question'>{{item.title}}</view>
+              <!--view class='border' /-->
+              <radio-group class='radio-group' name='answer' bindchange='radioChange'>
+                <label class='radio'><radio value="A" color='#39f5fc' />A.{{item.A}}</label>
+                <label class='radio'><radio value="B" color='#39f5fc' />B.{{item.B}}</label>
+                <label class='radio'><radio value="C" color='#39f5fc' />C.{{item.C}}</label>
+                <label class='radio'><radio value="D" color='#39f5fc' />D.{{item.D}}</label>
+              </radio-group>
+            </view>
+            <block wx:if="{{!answer[id]==0}}">
+              <view wx:if="{{answer[id].value != item.answer}}">
+                <text class="answer">答案：{{item.answer}}</text>
+              </view>
+            </block>
+            <view class='button-group'>
+              <button class='button' hover-class='none' bindtap='lastq' disabled='{{id==0}}'>上一题</button>
+              <button wx:if="{{id<9}}" class='button' hover-class='none' form-type='submit' bindtap='nextq'>下一题</button>
+            </view>
+            <view class='id'>{{id+1}}/{{ques.length}}</view>
+          </form>
+        </swiper-item>
+      </block>
+    </swiper>  
+</view>

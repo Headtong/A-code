@@ -2,14 +2,15 @@
 <view class="container">
   <view class="videoShow">
     <block wx:for="{{data}}" wx:key="index">
-    <video id="myVideo" src="{{item.video}}" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn enable-play-gesture vslide-gesture-in-fullscreen></video></block>
-  </view>
+      <video id="myVideo" src="{{item.video}}" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn enable-play-gesture vslide-gesture-in-fullscreen></video>
     <view class="cells">
-        <view class="cell-bd">
-          <input bindblur="bindInputBlur" class="danmuInput" type="text" placeholder="做个弹幕框满足你们"/>
-        </view>
-    <view class="btn-area">
-      <button bindtap="bindSendDanmu" class="sendDanmuButton" formType="submit">弹</button>
+      <view class="cell-bd">
+        <input bindblur="bindInputBlur" class="danmuInput" type="text" placeholder="做个弹幕框满足你们"/>
+      </view>
+      <view class="btn-area">
+        <button bindtap="bindSendDanmu" class="sendDanmuButton" formType="submit">弹</button>
+      </view>
     </view>
-    </view>
+    </block>
+  </view>
 </view>

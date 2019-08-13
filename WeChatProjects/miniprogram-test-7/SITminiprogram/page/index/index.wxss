@@ -9,8 +9,7 @@ page {
   position: absolute;
   height: 18%;
   width: 100%;
-  background: #3988ff;
-  
+  background: #3988ff; 
 }
 .userNickName{
   position: absolute;

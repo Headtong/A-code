@@ -1,15 +1,10 @@
 // miniprogram/pages/study/words/program.js
-
-// const db = wx.cloud.database();
-// const activityInfo = db.collection('sitdatabase');
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
    search:"",
-   word:""
   },
   getData:function(e)
   {
@@ -18,22 +13,19 @@ Page({
    console.log(this.data.search)
   },
   searchTap: function(e){
+    var i = this.data.search
     const db = wx.cloud.database();
-   // var that = this;
-   // console.log(data)
-    var datas=this.data.search
-    db.collection('sitdatabase').field({English : true,Chinese : true})
-    .get({
-      success: res =>{
-       this.setData({
-         data:res.data,
-         word:res.data[e].English
-       })
-        console.log('[数据库] [查询记录] 成功: ',res)
+    db.collection('sitdatabase').where({
+         English : i
+    }).get({
+      success :res =>{
+        this.setData({
+        dataE:res.data,}) 
+        console.log(res)
       }
     })
+   
   },
-  
   getWordsItem: function (e) {
     const db = wx.cloud.database();
     // 查询当前用户所有的 counters
@@ -60,9 +52,6 @@ Page({
     var that = this
     this.getWordsItem();
     this.searchTap();
-    // activityInfo.get().then((res) => {
-    //   console.log(res)
-    // })
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

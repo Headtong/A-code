@@ -9,8 +9,7 @@ App({
         traceUser: true,
       })
     }
-
-    this.globalData = {}
+   this.globalData = {}
   },
   onPullDownRefresh:function() {
     wx.showNavigationBarLoading()//在标题栏中显示加载

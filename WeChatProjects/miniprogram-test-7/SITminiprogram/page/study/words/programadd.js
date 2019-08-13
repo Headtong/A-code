@@ -5,9 +5,28 @@ Page({
    * 页面的初始数据
    */
   data: {
+    search:"",
+  },
+  getData: function (e) {
+    console.log(e)
+    this.data.search = e.detail.value;
+    console.log(this.data.search)
+  },
+  searchTap: function (e) {
+    var i = this.data.search
+    const db = wx.cloud.database();
+    db.collection('SITdatabase').where({
+      English: i
+    }).get({
+      success: res => {
+        this.setData({
+          dataE: res.data,
+        })
+        console.log(res)
+      }
+    })
 
   },
-
   getExamWords: function () {
     const db = wx.cloud.database();
     // 查询当前用户所有的 counters
@@ -35,6 +54,7 @@ Page({
   onLoad: function (options) {
     var that = this
     this.getExamWords()
+    this.searchTap()
   },
 
   /**

@@ -33,7 +33,7 @@
       {
         "pagePath": "page/study/study",
         "iconPath": "/images/stu.png",
-        "selectedIconPath":"/images/stuhasSelect.png",
+        "selectedIconPath": "/images/stuhasSelect.png",
         "text": "学习"
       },
       {
