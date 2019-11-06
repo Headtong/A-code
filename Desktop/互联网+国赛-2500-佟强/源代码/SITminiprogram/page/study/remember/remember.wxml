@@ -1,0 +1,14 @@
+<!--SITminiprogram/page/study/remember/remember.wxml-->
+<view class="container">
+  <view class="Postgraduation">
+   <navigator class="wordsB" url="../remember/remRes" hover-class="navigator-hover">
+   <image class="Pgraduation" src="/images/beidanci.png"></image>
+   <text class="nav_text">背单词</text>
+   </navigator></view>
+   <view class="CET">
+   <navigator class="words" url="../remember/remTest" hover-class="navigator-hover">
+   <image class="CETimage" src="/images/ciliangceshi.png"></image>
+   <text class="nav_text">词量测试</text>
+   </navigator>
+ </view>
+</view>

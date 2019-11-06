@@ -1,0 +1,14 @@
+<!--SITminiprogram/page/study/remember/remRes.wxml-->
+<view class="container">
+     <text class="counter">{{counter}}</text>
+    <block wx:for="{{list}}" wx:key="index" wx:item="item">
+      <text class="test">{{item.Chinese}}</text>
+      <input class="wordInput" bindinput="inputWordRandom" style="color:{{color}}; width:{{item.English.length}}" value="{{name}}" maxlength="{{item.English.length}}" placeholder="输入正确单词"/>
+      <view class="wordLength">单词字母数量为:
+      <text class="shuzi">{{item.English.length}}</text></view>
+    <button class="nextwordButton" bindtap="getRandWord">下一词</button>
+    <button class="lookWord" bindtap="getWord">查看单词</button>
+      <text class="answerEnglish">{{word}}</text>
+    </block>
+    <image class="wordImage" src="/images/bottom.gif" />
+</view>

@@ -1,0 +1,14 @@
+<!--SITminiprogram/pages/study/study.wxml-->
+<view class="container">
+  <view class="exam">
+   <navigator class="nav_exam" url="../study/exam/exam" hover-class="navigator-hover">
+   <image class="test" src="/images/kaoshi.png"/>
+   <text class="nav_exam_text">考题</text>
+   </navigator>
+   </view>
+   <view class="words">
+   <navigator class="nav_word" url="../study/word/word" hover-class="navigator-hover">
+   <image class="massage" src="/images/danci.png"/>
+   <text class="nav_word_text">单词</text>
+   </navigator></view>
+</view>

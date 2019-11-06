@@ -1,0 +1,12 @@
+<!--SITminiprogram/page/study/remember/remTest.wxml-->
+<view class="container">
+    <block wx:for="{{list}}" wx:key="index" wx:item="item">
+      <text class="test">{{item.Chinese}}</text>
+      <input class="wordTestInput" bindinput="wordTestInput" style="color:{{color}}; width:{{item.English.length}}" value="{{name}}" maxlength="{{item.English.length}}" placeholder="输入正确单词"/>
+      <view class="wordLength">单词字母数量为:
+      <text class="shuzi">{{item.English.length}}</text></view>
+    <button class="nextTestButton" bindtap="nextTestButton">下一词</button>
+    <button class="confirmButton" bindtap="confirmButton">完   成</button>
+    </block>
+    <image class="wordImage" src="/images/beijing2.gif" />
+</view>

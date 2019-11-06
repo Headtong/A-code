@@ -1,0 +1,55 @@
+/* SITminiprogram/page/study/word/word.wxss */
+.container{
+  margin-top:5%; 
+  position: absolute;
+  height: 100%;
+  width:100%
+}
+.Postgraduation{
+  display: block;
+  margin-top:10%; 
+  padding: 0% 0% 10% 0%; 
+  border-radius: 15%;
+  position: absolute;
+  height: 30%;
+  width: 60%;
+  left:20%;
+  box-shadow:10rpx 10rpx 5rpx #888888;
+}
+.CET{
+  display: block;
+  padding: 0% 0% 10% 0%; 
+  background-color: #f1eaea;
+  top:50%;
+  position: absolute;
+  border-radius: 15%;
+  height: 30%;
+  width: 60%;
+  left: 20%;
+  box-shadow:10rpx 10rpx 5rpx #888888;
+}
+.CETimage{
+  position: relative;
+  height: 438rpx;
+  width:470rpx;
+  border-radius: 13%
+}
+.Pgraduation{
+  position: relative;
+  height: 438rpx;
+  width:450rpx;
+  border-radius: 13%
+}
+.nav_text{
+  position: absolute;
+  height: 66rpx;
+  width: 470rpx;
+  top:85%;
+  right: 0rpx;
+  left: 4rpx;
+  text-align: center;
+  background: #fff;
+  color: rgba(0, 0, 0);
+  border: 2rpx 0 0 0  #000 solid;
+  border-radius:0 0 55rpx 55rpx 
+}

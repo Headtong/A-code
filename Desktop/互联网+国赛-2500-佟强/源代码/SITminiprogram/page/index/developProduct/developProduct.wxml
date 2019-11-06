@@ -1,0 +1,4 @@
+<!--miniprogram/pages/index/developProduct/developProduct.wxml-->
+<view class="container">
+<rich-text nodes="{{devNodes}}"></rich-text>
+</view>

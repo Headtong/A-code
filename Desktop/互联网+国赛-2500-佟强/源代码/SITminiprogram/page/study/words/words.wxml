@@ -1,0 +1,46 @@
+<!--SITminiprogram/pages/study/words/words.wxml-->
+<view class="container">
+  <swiper class="swiper" easing-function="default" previous-margin="100rpx" next-margin="100rpx" style='height:{{swiperH}};' bindchange="swiperChange">
+   <swiper-item class="swiper-item">
+    <view class="Postgra" style='height:{{swiperH}};' class='le-nav{{nowIdx==index?"le-active":""}}'bindload='getHeight'>
+     <navigator class="nav_Postgra" url="../words/program" hover-class="navigator-hover">
+       <image class="Postgra_img" src="/images/kaoyanyingyu.png"/>
+       <text class="nav_Postgra_text">考研单词</text>
+     </navigator>
+    </view>
+   </swiper-item>
+   <swiper-item class="swiper-item">
+     <view class="Postgra" style='height:{{swiperH}};' class='le-nav{{nowIdx==index?"le-active":""}}'bindload='getHeight'>
+       <navigator class="nav_Postgra" url="../words/programadd" hover-class="navigator-hover">
+         <image class="Postgra_img" src="/images/siliuji-3.png"/>
+         <text class="nav_Postgra_text">四六级单词</text>
+       </navigator>
+    </view>
+    </swiper-item>
+   <swiper-item class="swiper-item">
+   <view class="Postgra" style='height:{{swiperH}};' class='le-nav {{nowIdx==index?"le-active":""}}'bindload='getHeight'>
+     <navigator class="nav_Postgra" url="../words/programY" hover-class="navigator-hover">
+       <image class="Postgra_img" src="/images/yashi.png"/>
+       <text class="nav_Postgra_text">雅思单词</text>
+     </navigator>
+    </view>
+    </swiper-item>
+    <swiper-item class="swiper-item">
+   <view class="Postgra" style='height:{{swiperH}};' class='le-nav {{nowIdx==index?"le-active":""}}'bindload='getHeight'>
+     <navigator class="nav_Postgra" url="../words/programT" hover-class="navigator-hover">
+       <image class="Postgra_img" src="/images/tuofu.png"/>
+       <text class="nav_Postgra_text">托福单词</text>
+     </navigator>
+    </view>
+    </swiper-item>
+    <swiper-item class="swiper-item">
+   <view class="Postgra" style='height:{{swiperH}};' class='le-nav {{nowIdx==index?"le-active":""}}'bindload='getHeight'>
+     <navigator class="nav_Postgra" url="../words/programG" hover-class="navigator-hover">
+       <image class="Postgra_img" src="/images/gre.png"/>
+       <text class="nav_Postgra_text">GRE单词</text>
+     </navigator>
+    </view>
+    </swiper-item>
+   </swiper>
+   <image src="/images/beijingtu2.gif" class="wordsBackground"></image>
+</view>

@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+   <view class= "header">
+     <open-data class="userAvatarUrl" type="userAvatarUrl"></open-data>
+     <open-data class="userNickName" type="userNickName"></open-data>
+<!-- 需要使用 button 来授权登录 -->
+     <button wx:if="{{!canIUse}}" open-type="getUserInfo" 
+            bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  </view>
+  <view class="body-div"></view>
+   <view class="body">
+      <navigator class="navAbt" url="../index/aboutUs/aboutUs" hover-class="navigator-hover">关于小程序
+      <image class="nav-image" src='/images/aboutus.png' mode="aspectFit"/></navigator>
+      <navigator class="navdp" url="../index/developProduct/developProduct" hover-class="navigator-hover">迭代计划
+      <image class="nav-image" src='/images/jihua.png' mode="aspectFit"/></navigator>
+      <navigator class="navLogs" url="../index/logs/logs" hover-class="navigator-hover">日 志
+      <image class="nav-image" src='/images/rizhi.png' mode="aspectFit"/></navigator>
+      <button class="navresp" open-type="feedback" hover-class="navigator-hover">用户反馈<image class="nav-image" src='/images/yijian.png' mode="aspectFit"/></button>    
+   </view>  
+</view>

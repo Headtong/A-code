@@ -1,0 +1,21 @@
+<!--miniprogram/pages/study/words/programadd.wxml-->
+<view class="container">
+  <view class= "searchShow">
+    <input class="searchInput" bindconfirm="searchConfirm" bindinput= "getData" confirm-type="search" placeholder="输入单词/中文意思" value = ""/>
+    <button class="searchButton" bindtap="searchTap"><icon type="search"/></button>
+   <block wx:for="{{dataE}}" wx:key="index">
+      <view class='searchWord'>
+      <text class="showAnsE">{{item.English}}</text>
+      <text class="showAnsC">{{item.Chinese}}</text></view>  
+  </block>
+  <block wx:for="{{dataC}}" wx:key="index">
+      <view class='searchWord'>
+      <text class="showAnsE">{{item.English}}</text>
+      <text class="showAnsC">{{item.Chinese}}</text></view>  
+  </block>
+  </view>
+   <block wx:for="{{data}}" wx:key="index" class="blockItem">
+     <text class="English">{{item.English}}</text>
+     <text class="chinese">{{item.Chinese}}</text>
+   </block>
+</view>

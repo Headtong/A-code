@@ -1,0 +1,66 @@
+/* SITminiprogram/pages/study/study.wxss */
+.container{
+  margin-top:5%; 
+  position: absolute;
+  height: 95%;
+  width:100%
+}
+.exam{
+  display: block;
+  margin-top:10%; 
+  padding: 0% 0% 10% 0%; 
+  border-radius: 15%;
+  position: absolute;
+  height: 30%;
+  width: 60%;
+  left:20%;
+  box-shadow:10rpx 10rpx 5rpx #888888;
+}
+.words{
+  display: block;
+  padding: 0% 0% 10% 0%; 
+  background-color: #c1c1c7d5;
+  top:50%;
+  position: absolute;
+  border-radius: 15%;
+  height: 30%;
+  width: 60%;
+  left: 20%;
+  box-shadow:10rpx 10rpx 5rpx #888888;
+}.test{
+  position: absolute;
+  height: 408rpx;
+  width:450rpx;
+  border-radius: 13%
+}
+.massage{
+  position: absolute;
+  height: 408rpx;
+  width:450rpx;
+  border-radius: 13%
+}
+.nav_exam_text{
+  position: absolute;
+  height: 68rpx;
+  width: 450rpx;
+  top:86.5%;
+  right: 0rpx;
+  text-align: center;
+  color: rgba(0,0,0);
+  background: #fff;
+  color: rgba(0, 0, 0);
+  border: 2rpx 0 0 0  #000 solid;
+  border-radius:0 0 55rpx 55rpx 
+}
+.nav_word_text{
+  position: absolute;
+  height: 66rpx;
+  width: 450rpx;
+  top:86.5%;
+  right: 0rpx;
+  text-align: center;
+  background: #fff;
+  color: rgba(0, 0, 0);
+  border: 2rpx 0 0 0  #000 solid;
+  border-radius:0 0 55rpx 55rpx 
+}

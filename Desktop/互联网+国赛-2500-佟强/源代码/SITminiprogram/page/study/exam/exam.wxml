@@ -1,0 +1,42 @@
+<!--SITminiprogram/pages/study/exam/exam.wxml-->
+<view class="container">
+  <swiper class="swiper" easing-function="default" previous-margin="100rpx" next-margin="100rpx" style='height:{{swiperH}};' bindchange="swiperChange">
+   <swiper-item class="swiper-item">
+    <view class="Postgra" style='height:{{swiperH}};' class='le-nav{{nowIdx==index?"le-active":""}}'bindload='getHeight'>
+     <navigator class="nav_Postgra" url="../exam/English" hover-class="navigator-hover">
+       <image class="Postgra_img" src="/images/kaoyanyingyu.png"/>
+       <text class="nav_Postgra_text">考研英语</text>
+     </navigator>
+    </view>
+    <view class="kaoyanfoot">
+     <text class="foothead">考研小贴士</text>
+     <text class="footbody">只有勇敢的走出去，你才会知道自己多渺小。而你以后能走多远，取决于你现在有多努力。                                                                        </text>
+   </view>
+   </swiper-item>
+   <swiper-item class="swiper-item">
+     <view class="Postgra" style='height:{{swiperH}};' class='le-nav{{nowIdx==index?"le-active":""}}'bindload='getHeight'>
+       <navigator class="nav_Postgra" url="../exam/math" hover-class="navigator-hover">
+         <image class="Postgra_img" src="/images/kaoyanshuxue.png"/>
+         <text class="nav_Postgra_text">考研数学</text>
+       </navigator>
+    </view>
+    <view class="kaoyanfoot">
+     <text class="foothead">考研小贴士</text>
+     <text class="footbody">所谓的光辉岁月，并不是以后闪耀的日子，而是无人问津时，你对梦想的偏执。</text>
+   </view>
+    </swiper-item>
+   <swiper-item class="swiper-item">
+   <view class="Postgra" style='height:{{swiperH}};' class='le-nav {{nowIdx==index?"le-active":""}}'bindload='getHeight'>
+     <navigator class="nav_Postgra" url="../exam/polict" hover-class="navigator-hover">
+       <image class="Postgra_img" src="/images/kaoyanzhengzhi.png"/>
+       <text class="nav_Postgra_text">考研政治</text>
+     </navigator>
+    </view>
+    <view class="kaoyanfoot">
+     <text class="foothead">考研小贴士</text>
+     <text class="footbody">一个人至少拥有一个梦想，有一个理由去坚强。心若没有栖息的地方，到哪里都是流浪。</text>
+   </view>
+    </swiper-item>
+   </swiper>
+   
+</view>

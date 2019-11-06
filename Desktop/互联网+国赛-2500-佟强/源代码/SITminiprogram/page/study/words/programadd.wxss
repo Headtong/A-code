@@ -1,0 +1,26 @@
+/* miniprogram/pages/study/words/programadd.wxss */
+.searchInput{
+  position: relative;
+  align-items: left;
+  height: 100%;
+  width: 70%;
+  left: 3%;
+  background: rgb(248, 245, 245);
+  margin: 3%;
+  line-height: 5%;
+}
+.searchButton{
+  position:absolute;
+  left:78%;
+  width: 10%;
+  margin-left: 0;
+  margin-right: 0;
+  bottom:91%;
+}
+.searchWord{
+  margin: 1%;
+  background: rgb(228, 229, 231)
+}
+.showAnsC{
+  margin-left: 3% 
+}

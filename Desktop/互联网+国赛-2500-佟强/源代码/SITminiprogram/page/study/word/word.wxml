@@ -1,0 +1,14 @@
+<!--SITminiprogram/page/study/word/word.wxml-->
+<view class="container">
+  <view class="Postgraduation">
+   <navigator class="wordsP" url="../words/words" hover-class="navigator-hover">
+   <image class="Pgraduation" src="/images/kaoyanyingyu.png"></image>
+   <text class="nav_text">单词查查</text>
+   </navigator></view>
+   <view class="CET">
+   <navigator class="wordsCET" url="../remember/remember" hover-class="navigator-hover">
+   <image class="CETimage" src="/images/beidanci.png"></image>
+   <text class="nav_text">背单词</text>
+   </navigator>
+ </view>
+</view>

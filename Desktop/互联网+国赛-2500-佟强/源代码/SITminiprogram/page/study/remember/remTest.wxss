@@ -1,0 +1,87 @@
+/* SITminiprogram/page/study/remember/remTest.wxss */
+.container{
+  margin-top: 10%
+}
+.counter{
+  position: absolute;
+  right: 75%;
+  bottom:85%;
+  font-size : 120rpx;
+  font-weight: 700; 
+  color:rgb(23, 238, 191);
+}
+.test{
+/* 题目 */
+margin-bottom: 6%;
+font-size: 40rpx;
+width: 80%
+} 
+.wordTestInput{
+/* 输入框 */
+height: 100rpx;
+text-decoration: underline;
+text-align: center;
+color :rgb(0, 153, 255); 
+background: rgb(237, 237, 240);
+border-radius: 10rpx;
+font-weight: 600rpx;
+font-size: 50rpx;
+margin-bottom: 2%;
+}
+.wordLength{
+/* 输入提示 */
+color: bisque;
+margin-bottom: 2%
+
+}
+.shuzi{
+  color:rgb(255, 0, 76);
+  font-size: 50rpx;
+  font-weight: 700
+}
+.nextTestButton{
+ /* 下一词按钮  */
+  position: relative;
+  border-radius:20%;
+  background: #1E90FF;
+  box-shadow: 0 1px #666;
+}
+nextTestButton:active {
+  background-color: #1E90FF;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+.nextTestButton{
+ /* 下一词按钮  */
+  position: relative;
+  border-radius:20%;
+  background: #1E90FF;
+  box-shadow: 0 1px #666;
+}
+nextTestButton:active {
+  background-color: #1E90FF;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+.confirmButton{
+ /* 下一词按钮  */
+  position: relative;
+  text-align: center;
+  margin : 2% ;
+  width: 164rpx;
+  display: flex;
+  border-radius:20%;
+  background: rgba(4, 250, 25, 0.87);
+  box-shadow: 0 1px #666;
+}
+.confirmButton:active {
+  background-color: rgba(4, 250, 25, 0.87);
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+.wordImage{
+/* 动态图片 */
+  position: absolute;
+  width : 100%;
+  top : 60%
+}
